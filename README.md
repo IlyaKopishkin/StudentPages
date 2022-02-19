@@ -1,1 +1,1 @@
-# leaningPages
+# StudentPages
