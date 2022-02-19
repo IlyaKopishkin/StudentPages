@@ -1,0 +1,89 @@
+
+.header{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;  
+    border-radius: 6px;
+    display:inline-flex;
+    flex-wrap: wrap;
+} 
+.menu1 { 
+    float: right;
+width: 100px;
+border: 1px solid black;
+border-radius: 5px;
+background-color: rgba(13, 252, 5, 0.747);
+padding-top: 0px;
+padding-left: 5px;
+padding-right: 2px;
+padding-bottom: 4px;
+margin-top: 45px;
+margin-bottom: 45px;
+margin-left: 5px;
+margin-right: 5px;
+}
+.menu1{
+    position: relative;
+}
+.list_1{
+    display: none;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 4px ;
+    padding-left: 5px;
+    padding-right: 10px;
+    border: 1px solid red;
+    border-radius: 3px;
+    background-color: bisque;
+}
+.menu1:hover .list_1{
+    display: inherit;
+    position: absolute;
+}
+
+.list_2{
+    display: none;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 4px ;
+    padding-left: 5px;
+    padding-right: 10px;
+    border: 1px solid red;
+    border-radius: 3px;
+    background-color: bisque;
+}
+.menu1:hover .list_2{
+    display: inherit;
+    position: absolute;
+}
+.list_3{
+    display: none;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 4px ;
+    padding-left: 5px;
+    padding-right: 10px;
+    border: 1px solid red;
+    border-radius: 3px;
+    background-color: bisque;
+}
+.menu1:hover .list_3{
+    display: inherit;
+    position: absolute;
+}
+.logo{
+    padding: 6px;
+    border-radius: 20px;
+ }    
+.header1{
+text-align: center;
+}
+.footer{
+ display: inline-flex;
+
+ margin-left:15px; ;
+    
+}
